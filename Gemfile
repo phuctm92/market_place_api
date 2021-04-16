@@ -27,6 +27,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
   gem 'pry-rails'
+  gem 'faker', '~> 2.17'
 end
 
 group :development do
