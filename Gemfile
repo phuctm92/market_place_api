@@ -41,3 +41,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # A pure ruby implementation of the RFC 7519 OAuth JSON Web Token (JWT) standard.
 gem 'jwt', '~> 2.2', '>= 2.2.2'
+
+# JSON API(jsonapi.org) serializer that works with rails and can be used to serialize any kind of ruby objects
+gem 'fast_jsonapi', '~> 1.5'
